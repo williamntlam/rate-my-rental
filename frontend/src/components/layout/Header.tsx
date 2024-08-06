@@ -6,8 +6,8 @@ const Header = () => {
       <div>
         <img src={headerIcon} className="p-6 w-24 h-24 object-contain" />
       </div>
-      <div>Buttons in middle</div>
-      <div>Buttons on right</div>
+      <div>Search Bar Saved Rentals</div>
+      <div>Messenger Buttons, Profile Buttons</div>
     </header>
   );
 };

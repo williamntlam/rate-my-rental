@@ -1,11 +1,12 @@
 import Header from "./components/layout/Header";
-import Sidebar from "./components/layout/Sidebar";
+import Footer from "./components/layout/Footer";
 
 function App() {
   return (
-    <div>
+    <div className="flex flex-col min-h-screen">
       <Header />
-      <Sidebar />
+      <main className="flex-grow p-4">Main Content Placeholder</main>
+      <Footer />
     </div>
   );
 }

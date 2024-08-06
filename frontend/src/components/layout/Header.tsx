@@ -1,13 +1,37 @@
-import headerIcon from "/headerIcon.png";
+import homeIcon from "/headerIcon.png";
+import messengerIcon from "/messengerIcon.png";
+import profileIcon from "/profileIcon.png";
 
 const Header = () => {
   return (
     <header className="flex items-center justify-between p-4 bg-orange-600 text-white h-16">
       <div>
-        <img src={headerIcon} className="p-6 w-24 h-24 object-contain" />
+        <button className="bg-white rounded-full p-2 h-10 w-10 hover:bg-gray-400">
+          <img
+            src={homeIcon}
+            className="object-contain h-full w-full"
+            alt="Home Icon"
+          />
+        </button>
       </div>
       <div>Search Bar Saved Rentals</div>
-      <div>Messenger Buttons, Profile Buttons</div>
+      {/* Messenger Buttons, Profile Buttons */}
+      <div className="flex justify-between space-x-4">
+        <button className="bg-white rounded-full p-2 h-10 w-10 hover:bg-gray-400">
+          <img
+            src={messengerIcon}
+            className="object-contain h-full w-full"
+            alt="Messenger Icon"
+          />
+        </button>
+        <button className="bg-white rounded-full p-2 h-10 w-10 hover:bg-gray-400">
+          <img
+            src={profileIcon}
+            className="object-contain h-full w-full"
+            alt="Messenger Icon"
+          />
+        </button>
+      </div>
     </header>
   );
 };

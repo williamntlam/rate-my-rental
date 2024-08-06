@@ -13,7 +13,9 @@ const Contact: React.FC = () => {
     setEmail(event.target.value);
   };
 
-  const handleMessageChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+  const handleMessageChange = (
+    event: React.ChangeEvent<HTMLTextAreaElement>
+  ) => {
     setMessage(event.target.value);
   };
 

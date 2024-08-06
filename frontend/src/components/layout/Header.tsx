@@ -1,6 +1,7 @@
 import homeIcon from "/headerIcon.png";
 import messengerIcon from "/messengerIcon.png";
 import profileIcon from "/profileIcon.png";
+import SearchBar from "../common/SearchBar";
 
 const Header = () => {
   return (
@@ -14,7 +15,9 @@ const Header = () => {
           />
         </button>
       </div>
-      <div>Search Bar Saved Rentals</div>
+      <div>
+        <SearchBar />
+      </div>
       {/* Messenger Buttons, Profile Buttons */}
       <div className="flex justify-between space-x-4">
         <button className="bg-white rounded-full p-2 h-10 w-10 hover:bg-gray-400">

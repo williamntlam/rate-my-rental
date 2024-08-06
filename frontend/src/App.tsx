@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="flex flex-col min-h-screen">
       <Header />
-      <Contact />
+      <main className="min-h-screen">Main Content</main>
       <Footer />
     </div>
   );

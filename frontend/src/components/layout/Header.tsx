@@ -2,6 +2,7 @@ import homeIcon from "/headerIcon.png";
 import messengerIcon from "/messengerIcon.png";
 import profileIcon from "/profileIcon.png";
 import SearchBar from "../common/SearchBar";
+import saveIcon from "/saveIcon.png";
 
 const Header = () => {
   return (
@@ -15,9 +16,17 @@ const Header = () => {
           />
         </button>
       </div>
-      <div>
+      <div className="flex items-center justify-between">
         <SearchBar />
+        <button className="bg-white rounded-full p-2 h-10 w-10 ml-2 hover:bg-gray-400">
+          <img
+            src={saveIcon}
+            className="object-contain h-full w-full"
+            alt="Save Icon"
+          />
+        </button>
       </div>
+
       {/* Messenger Buttons, Profile Buttons */}
       <div className="flex justify-between space-x-4">
         <button className="bg-white rounded-full p-2 h-10 w-10 hover:bg-gray-400">

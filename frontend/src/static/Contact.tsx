@@ -17,7 +17,7 @@ const Contact: React.FC = () => {
     setMessage(event.target.value);
   };
 
-  const handleSubmit = (event: React.FormEvent<HTMLInputElement>) => {
+  const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
     // Need to set up backend for this.
     console.log(name);

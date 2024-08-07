@@ -90,19 +90,17 @@ const TermsOfService: React.FC = () => {
           </h2>
           <p className="text-gray-700 mb-6">
             These terms shall be governed by and construed in accordance with
-            the laws of [Your Country/State]. Any disputes arising under or in
-            connection with these terms shall be subject to the exclusive
-            jurisdiction of the courts of [Your Country/State].
+            the laws of Canada. Any disputes arising under or in connection with
+            these terms shall be subject to the exclusive jurisdiction of the
+            courts of Canada.
           </p>
         </section>
         <section>
           <p className="text-gray-700">
             If you have any questions about these Terms of Service, please{" "}
-            <nav>
-              <Link to="/contact-us" className="text-blue-500 hover:underline">
-                Contact Us
-              </Link>
-            </nav>
+            <Link to="/contact-us" className="text-blue-500 hover:underline">
+              Contact Us
+            </Link>
             . We are here to help!
           </p>
         </section>

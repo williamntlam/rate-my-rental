@@ -80,11 +80,9 @@ const PrivacyPolicy: React.FC = () => {
           </p>
           <p className="text-gray-700">
             If you have any questions about this Privacy Policy, please{" "}
-            <nav>
-              <Link to="/contact-us" className="text-blue-500 hover:underline">
-                Contact Us
-              </Link>
-            </nav>
+            <Link to="/contact-us" className="text-blue-500 hover:underline">
+              Contact Us
+            </Link>
             . We are here to help!
           </p>
         </section>

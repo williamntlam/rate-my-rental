@@ -9,6 +9,8 @@ const Rentals = () => {
       </div>
       <div className="flex-1 bg-gray-200 p-6 m-4 shadow-lg rounded-lg">
         Rental Area
+        {/* Fetch rental units, have user paginate between them. */}
+        {/* Use cursor based pagination. */}
       </div>
     </div>
   );

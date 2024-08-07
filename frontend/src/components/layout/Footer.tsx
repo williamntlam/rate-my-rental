@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Footer: React.FC = () => {
   return (
@@ -9,28 +10,30 @@ const Footer: React.FC = () => {
             <p>© 2024 William Lam. All rights reserved.</p>
           </div>
           <div className="w-full sm:w-auto mb-4 sm:mb-0">
-            <ul className="flex space-x-4">
-              <li>
-                <a href="/about" className="hover:underline">
-                  About Us
-                </a>
-              </li>
-              <li>
-                <a href="/contact" className="hover:underline">
-                  Contact
-                </a>
-              </li>
-              <li>
-                <a href="/privacy-policy" className="hover:underline">
-                  Privacy Policy
-                </a>
-              </li>
-              <li>
-                <a href="/terms-of-service" className="hover:underline">
-                  Terms of Service
-                </a>
-              </li>
-            </ul>
+            <nav>
+              <ul className="flex space-x-4">
+                <li>
+                  <Link to="/about-us" className="hover:underline">
+                    About Us
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/contact-us" className="hover:underline">
+                    Contact Us
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/privacy-policy" className="hover:underline">
+                    Private Policy
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/terms-of-service" className="hover:underline">
+                    Terms of Service
+                  </Link>
+                </li>
+              </ul>
+            </nav>
           </div>
         </div>
       </div>
